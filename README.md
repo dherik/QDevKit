@@ -10,6 +10,7 @@ A Qt-based desktop application for developers with various conversion and utilit
 - **JWT Decoder** - Decode and inspect JSON Web Tokens
 - **URL Encoder/Decoder** - Encode and decode URL strings
 - **Timestamp Converter** - Convert between Unix timestamps and datetime strings
+- **Hash Generator** - Generate MD5, SHA1, SHA256, SHA512 hashes
 
 ## Download
 
@@ -18,9 +19,9 @@ A Qt-based desktop application for developers with various conversion and utilit
 Download the latest AppImage from [Releases](https://github.com/dherik/QDevKit/releases):
 
 ```bash
-wget https://github.com/dherik/QDevKit/releases/download/v1.0.0/QDevKit-v1.0.0-linux-x86_64.AppImage
-chmod +x QDevKit-v1.0.0-linux-x86_64.AppImage
-./QDevKit-v1.0.0-linux-x86_64.AppImage
+wget https://github.com/dherik/QDevKit/releases/download/v1.1.0/QDevKit-1.1.0-linux-x86_64.AppImage
+chmod +x QDevKit-1.1.0-linux-x86_64.AppImage
+./QDevKit-1.1.0-linux-x86_64.AppImage
 ```
 
 The AppImage works on most Linux distributions without installation.
