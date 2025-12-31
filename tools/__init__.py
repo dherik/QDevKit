@@ -1,1 +1,1 @@
-"""Tools package for QDevTools"""
+"""Tools package for QDevKit"""
