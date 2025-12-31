@@ -27,6 +27,13 @@ APPDIR="$PROJECT_ROOT/build/AppDir"
 DIST_DIR="$PROJECT_ROOT/dist"
 PYINSTALLER_OUTPUT="$DIST_DIR/$APP_NAME"
 
+# Debug output
+echo "Project root: $PROJECT_ROOT"
+echo "Dist directory: $DIST_DIR"
+echo "Expected PyInstaller output: $PYINSTALLER_OUTPUT"
+echo "Contents of dist directory:"
+ls -la "$DIST_DIR/" || echo "Dist directory not found"
+
 # Check if PyInstaller output exists
 if [ ! -d "$PYINSTALLER_OUTPUT" ]; then
     echo -e "${RED}Error: PyInstaller output not found at $PYINSTALLER_OUTPUT${NC}"
