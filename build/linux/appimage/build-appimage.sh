@@ -16,8 +16,13 @@ echo -e "${GREEN}================================================${NC}"
 echo -e "${GREEN}  Building QDevKit AppImage${NC}"
 echo -e "${GREEN}================================================${NC}"
 
-# Project root directory
-PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../../.." && pwd)"
+# Project root directory - use git root or current directory
+if git rev-parse --git-dir > /dev/null 2>&1; then
+    PROJECT_ROOT="$(git rev-parse --show-toplevel)"
+else
+    # Fallback: use current directory
+    PROJECT_ROOT="$(pwd)"
+fi
 cd "$PROJECT_ROOT"
 
 # Variables
