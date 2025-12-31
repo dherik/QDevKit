@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="256" height="256" fill="#0078d4" rx="32"/>
+
+  <!-- Letter Q -->
+  <path d="M128,60 C90,60 60,90 60,128 C60,166 90,196 128,196 C166,196 196,166 196,128 C196,90 166,60 128,60 Z M128,176 C102,176 80,154 80,128 C80,102 102,80 128,80 C154,80 176,102 176,128 C176,154 154,176 128,176 Z"
+        fill="white" stroke="white" stroke-width="8"/>
+
+  <!-- Q tail -->
+  <path d="M170,180 L190,200"
+        stroke="white" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+  <!-- Tools icons inside Q -->
+  <!-- Wrench -->
+  <g transform="translate(100, 100)">
+    <path d="M10,5 L20,15 L17,18 L7,8 Z M15,0 L25,5 L23,7 L13,2 Z"
+          fill="#0078d4" transform="rotate(45, 15, 10)"/>
+  </g>
+
+  <!-- Gear/cog -->
+  <circle cx="128" cy="128" r="15" fill="#0078d4" opacity="0.3"/>
+  <circle cx="128" cy="128" r="8" fill="white"/>
+
+  <!-- Code brackets -->
+  <text x="128" y="150"
+        font-family="monospace"
+        font-size="20"
+        fill="white"
+        text-anchor="middle"
+        font-weight="bold">&lt;/&gt;</text>
+</svg>

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-QDevTools - A Qt-based Developer Tools Application
+QDevKit - A Qt-based Developer Tools Application
 Main entry point
 """
 
@@ -14,9 +14,9 @@ def main():
     app = QApplication(sys.argv)
 
     # Set application properties
-    app.setApplicationName("QDevTools")
+    app.setApplicationName("QDevKit")
     app.setApplicationVersion("1.0.0")
-    app.setOrganizationName("QDevTools")
+    app.setOrganizationName("QDevKit")
 
     # Enable high DPI scaling
     app.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps)

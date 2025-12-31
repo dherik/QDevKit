@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=QDevKit
+Comment=Developer Tools Application
+GenericName=Developer Tools
+Exec=QDevKit
+Icon=QDevKit
+Type=Application
+Terminal=false
+Categories=Development;Utility;Qt;
+StartupNotify=true

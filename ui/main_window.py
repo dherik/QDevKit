@@ -1,5 +1,5 @@
 """
-Main Window for QDevTools
+Main Window for QDevKit
 """
 
 from PySide6.QtWidgets import (
@@ -22,7 +22,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("QDevTools - Developer Utilities")
+        self.setWindowTitle("QDevKit - Developer Utilities")
         self.setMinimumSize(900, 600)
         self.resize(1000, 700)
 
