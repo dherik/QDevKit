@@ -15,6 +15,7 @@ from tools.uuid_generator import UuidGeneratorTool
 from tools.jwt_decoder import JwtDecoderTool
 from tools.url_encoder import UrlEncoderTool
 from tools.timestamp_converter import TimestampConverter
+from tools.hash_generator import HashGeneratorTool
 
 
 class MainWindow(QMainWindow):
@@ -105,6 +106,7 @@ class MainWindow(QMainWindow):
             ("JWT Decoder", JwtDecoderTool),
             ("URL Encoder/Decoder", UrlEncoderTool),
             ("Timestamp Converter", TimestampConverter),
+            ("Hash Generator", HashGeneratorTool),
         ]
 
         for tool_name, tool_class in tools:
