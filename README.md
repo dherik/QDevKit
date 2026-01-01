@@ -1,4 +1,27 @@
-# QDevKit - Developer Utilities Application
+<div align="center">
+  <h1>QDevKit - Developer Utilities Application</h1>
+
+  Development tools at your fingertips
+</div>
+
+<div align="center">
+  <a href="https://github.com/dherik/QDevKit/actions/workflows/ci.yml" title="CI">
+    <img src="https://github.com/dherik/QDevKit/actions/workflows/ci.yml/badge.svg" alt="CI status"/>
+  </a>
+  <a href="#license">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="GPL 3 License">
+  </a>
+  <a href="https://github.com/dherik/QDevKit/releases">
+    <img src="https://img.shields.io/github/v/release/dherik/QDevKit" alt="Latest release"/>
+  </a>
+  <br />
+  <a href="#features">Features</a> ·
+  <a href="#download">Download</a> ·
+  <a href="#building-from-source">Build</a> ·
+  <a href="#license">License</a>
+</div>
+
+---
 
 A Qt-based desktop application for developers with various conversion and utility tools.
 
@@ -134,7 +157,7 @@ tools = [
 
 ## License
 
-[Your License Here]
+This project is licensed under the GNU General Public License v3.0 or later.
 
 ## Contributing
 
