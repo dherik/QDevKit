@@ -11,9 +11,6 @@
   <a href="#license">
     <img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="GPL 3 License">
   </a>
-  <a href="https://github.com/dherik/QDevKit/releases">
-    <img src="https://img.shields.io/github/v/release/dherik/QDevKit" alt="Latest release"/>
-  </a>
   <br />
   <a href="#features">Features</a> ·
   <a href="#download">Download</a> ·
