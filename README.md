@@ -22,6 +22,8 @@
 
 A Qt-based desktop application for developers with various conversion and utility tools.
 
+<img width="1130" height="855" alt="image" src="https://github.com/user-attachments/assets/ea83cb02-5b6b-4195-a078-4ce6a90d2e6d" />
+
 ## Features
 
 - **JSON Formatter** - Format, validate, and minify JSON data
