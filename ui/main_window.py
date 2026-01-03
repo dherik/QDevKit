@@ -10,6 +10,7 @@ from PySide6.QtCore import Qt, QSize
 from PySide6.QtGui import QFont
 
 from tools.json_formatter import JsonFormatterTool
+from tools.json_path_filter import JsonPathFilterTool
 from tools.base64_tool import Base64Tool
 from tools.uuid_generator import UuidGeneratorTool
 from tools.jwt_decoder import JwtDecoderTool
@@ -101,6 +102,7 @@ class MainWindow(QMainWindow):
         """Add all tools to the window"""
         tools = [
             ("JSON Formatter", JsonFormatterTool),
+            ("JSON Path Filter", JsonPathFilterTool),
             ("Base64 Encode/Decode", Base64Tool),
             ("UUID Generator", UuidGeneratorTool),
             ("JWT Decoder", JwtDecoderTool),

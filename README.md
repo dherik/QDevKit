@@ -27,6 +27,7 @@ A Qt-based desktop application for developers with various conversion and utilit
 ## Features
 
 - **JSON Formatter** - Format, validate, and minify JSON data
+- **JSON Path Filter** - Filter JSON data using JSONPath expressions with quick examples and expression history
 - **Base64 Encoder/Decoder** - Encode and decode Base64 strings
 - **UUID Generator** - Generate UUID v4 (random) and v7 (time-ordered)
 - **JWT Decoder** - Decode and inspect JSON Web Tokens
@@ -41,9 +42,9 @@ A Qt-based desktop application for developers with various conversion and utilit
 Download the latest AppImage from [Releases](https://github.com/dherik/QDevKit/releases):
 
 ```bash
-wget https://github.com/dherik/QDevKit/releases/download/v1.1.0/QDevKit-1.1.0-linux-x86_64.AppImage
-chmod +x QDevKit-1.1.0-linux-x86_64.AppImage
-./QDevKit-1.1.0-linux-x86_64.AppImage
+wget https://github.com/dherik/QDevKit/releases/download/v1.2.0/QDevKit-1.2.0-linux-x86_64.AppImage
+chmod +x QDevKit-1.2.0-linux-x86_64.AppImage
+./QDevKit-1.2.0-linux-x86_64.AppImage
 ```
 
 The AppImage works on most Linux distributions without installation.
@@ -109,10 +110,12 @@ qdevtools/
 ├── tools/
 │   ├── __init__.py
 │   ├── json_formatter.py       # JSON formatter tool
+│   ├── json_path_filter.py     # JSON Path filter tool
 │   ├── base64_tool.py          # Base64 encoder/decoder
 │   ├── uuid_generator.py       # UUID v4/v7 generator
 │   ├── jwt_decoder.py          # JWT decoder
 │   ├── url_encoder.py          # URL encoder/decoder
+│   ├── hash_generator.py       # Hash generator tool
 │   └── timestamp_converter.py  # Timestamp converter
 └── build/
     └── linux/
@@ -152,6 +155,7 @@ tools = [
 
 - **PySide6** - Qt6 Python bindings (LGPL licensed)
 - **PyJWT** - JWT decoding support
+- **jsonpath-ng** - JSONPath expression parsing
 - **PyInstaller** - For building executables (development only)
 
 ## License
