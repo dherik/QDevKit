@@ -174,10 +174,14 @@ class Base64Tool(QWidget):
             self.status_label.setStyleSheet("color: #dc3545; padding: 5px;")
 
     def swap(self):
-        """Swap input and output"""
+        """Swap input and output and toggle mode"""
         output_data = self.output_text.toPlainText()
         if output_data:
             self.input_text.setPlainText(output_data)
+            if self.encode_radio.isChecked():
+                self.decode_radio.setChecked(True)
+            else:
+                self.encode_radio.setChecked(True)
 
     def clear_all(self):
         """Clear all fields"""
